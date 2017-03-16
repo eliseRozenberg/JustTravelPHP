@@ -1,0 +1,309 @@
+P
+{
+    font-size: 1.5em;
+    color: #006666;
+    text-align: center;
+    font-family: Rockwell, Papyrus, fantasy, cursive;
+}
+
+h1{
+    font-size: 1.5em;
+    color: #006666;
+    text-align: center;
+    font-family: Rockwell, Papyrus, fantasy, cursive;
+}
+h5{
+    color: #006666;
+    text-align: center;
+    font-family: Rockwell, Papyrus, fantasy, cursive; 
+}
+a{
+    font-size: 1.5em;
+    color: #006666;
+    text-align: center;
+    font-family: Rockwell, Papyrus, fantasy, cursive;
+}
+
+.image{
+    position: relative;
+    width: 100%;
+}
+
+#logo{
+    position: absolute;
+    top:10px;
+    left: 10px;
+}
+
+#hello{
+    position: absolute;
+    top:10px;
+    right: 10px;
+    color: white;
+}
+#logout{
+    position: absolute;
+    top:35px;
+    right: 10px;
+    color: white; 
+}
+
+
+#slogan{
+    font-family: Papyrus, fantasy;
+    position: absolute; 
+    top: 150px; 
+    width: 100%; 
+    font-size: 2.5em;
+}
+nav{
+    position: absolute; 
+    top: 240px; 
+    width: 100%; 
+}
+nav ul{
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li a:link, nav ul li a:visited {
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bold;
+    background: #006666;
+    padding: 3px 0 3px 0px;
+    border: solid #006666 1px;
+    color:white;
+}
+
+#menu_list a{
+    display: inline-block;
+    text-decoration: none;
+    width: 150px;
+    margin-bottom: 15px;
+    font-size: 1em;
+}
+
+#menu_list a:hover{
+    background-color: aliceblue;
+    color:#006666;
+}
+
+.content
+{
+    font-family:Segoe UI, Rockwell, Monaco;
+    font-size:1em;
+    text-align:center;
+}
+
+ul
+{
+    font-family:Rockwell;
+}
+
+form
+{
+    font-family: Segoe UI;
+    font-size:1em;
+    color:#006666;
+}
+
+.center{
+    text-align: center;
+}
+
+
+.footer p{
+    font-size:.6em;
+    display:inline;
+}
+.footer h5{
+    font-size: .7em;
+    right:5em;
+    margin-bottom: 5em; 
+}
+
+input:required:invalid, input:focus:invalid {
+    background-image: url(/images/invalid.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    border-color:red;
+}
+input:required:valid {
+    background-image: url(/images/valid.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    border-color:green;
+}
+
+#emailComment {
+    height: 100px;
+    width: 400px;
+    resize:both;
+    ; /* Remove this if you want the user to resize the textarea */
+}
+
+.list{
+    background-color:#F0F8FF;
+    border-width:  0px 0px 6px 0px;
+    border-style: solid;
+    border-color:  white;
+}
+
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+}
+
+
+#createAccount {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+    width: 700px;
+    height: 340px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#createAccount label {
+    float: left;
+    width: 13em;
+    text-align: left;
+    margin-left: 1em;
+}
+#createAccount label.nofloat {
+    float: none;
+}
+#createAccount input, #locations{
+    width: 13em;
+    margin-left: 1em;
+    margin-bottom: .5em;
+}
+#createAccount span {
+    color: red;
+}
+
+#createAccount label.error {
+    float: none;
+    color: red;
+    font-size: 80.5%;
+}
+
+#travel{
+    text-align:left;
+}
+
+#button{
+    background-color:  #006666;
+    color: white;
+}
+
+.error{
+    color: red;
+}
+
+#addActivity label {
+    float: left;
+    width: 13em;
+    text-align: left;
+    margin-left: 1em;
+}
+#addActivity label.nofloat {
+    float: none;
+}
+#addActivity input, #locations, #activityType, #rating, textarea{
+    width: 13em;
+    margin-left: 1em;
+    margin-bottom: .5em;
+}
+#addActivity span {
+    color: red;
+}
+
+#addActivity label.error {
+    float: none;
+    color: red;
+    font-size: 80.5%;
+}
+
+#rating{
+    width:3em;
+}
+
+.hide{
+    display: none;
+}
+
+.addsubbutton{
+    background-color: #006666;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    float:right;
+    font-size: 12px;
+    border-radius: 50%;
+}
+
+#activitydetails{
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#activitydetails p{
+    text-align: left;
+    margin-left: 10px;
+}
+
+table{
+    
+    border-color: #006666;
+}
+
+td{
+    font-size: 1em;
+    color: #006666;
+    font-family: Rockwell, Papyrus, fantasy, cursive;
+    border: thin solid;
+}
+
+tr{
+    font-size: 1em;
+    color: #006666;
+    font-family: Rockwell, Papyrus, fantasy, cursive;
+    border: thin solid;
+}
